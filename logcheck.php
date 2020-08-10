@@ -24,10 +24,12 @@ include('dbconn.php');
 					$type=$row["type"];
 					$id=$row["id"];
 					$name=$row["name"];
+					$email=$row["email"];
 					session_start();
 					$_SESSION["name"]=$name;
 					$_SESSION["id"]=$id;
 					$_SESSION["email"]=$email;
+					$_SESSION["type"]=$type;
 
 						if($type =='admin'){
 							header("location:./adminhome.php");

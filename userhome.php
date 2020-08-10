@@ -14,9 +14,9 @@
 </head>
 <body>
 <h1>Hello <?php echo $_SESSION["name"]  ?> ! </h1>
-<a href="">Profile</a><br>
+<a href="user_profile.php">Profile</a><br>
     <a href="">Change Password</a><br>
     
-    <a href="">logout</a>
+    <a href="logout.php">logout</a>
 </body>
 </html>

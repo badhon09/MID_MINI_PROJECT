@@ -16,10 +16,10 @@
 
     <center>
 
-    <a href="">Profile</a><br>
+    <a href="admin_profile.php">Profile</a><br>
     <a href="">Change Password</a><br>
-    <a href="">view users</a><br>
-    <a href="">logout</a>
+    <a href="view_users.php">view users</a><br>
+    <a href="logout.php">logout</a>
 
     </center>
 </body>
