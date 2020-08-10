@@ -12,6 +12,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello <?php echo $_SESSION["name"]  ?> </h1>
+    <h1>Hello <?php echo $_SESSION["name"]  ?> ! </h1>
+
+    <center>
+
+    <a href="">Profile</a><br>
+    <a href="">Change Password</a><br>
+    <a href="">view users</a><br>
+    <a href="">logout</a>
+
+    </center>
 </body>
 </html>
